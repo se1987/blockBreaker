@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+    background-color: #c2e5f9;
+    width:100%;
+    margin:0 auto;
+    font-family: "筑紫A丸ゴシック";
+    color:#008db7;
+    line-height: 2;
+}
+
+.main {
+    margin: auto;
+    max-width:1200px;
+}
+
+h3 {
+    background-color:#ede795;
+    text-align:center;
+}
+
+.wrapper {
+    display:flex;
+    justify-content:space-around;
+}
+
+.box {
+    box-sizing:border-box;
+    width:30%;
+    margin: 30px;
+    border:1px solid #beb098;
+    padding:0 15px;
+}
+
+.box > ul {
+    padding:0 15px;
+}
+
+#icon {
+    display:block;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.title {
+    padding:0 25px;
+    background-color:#51a5dc;
+    color: #fff;
+    align-items: center;
+}
+
+.dream li {
+    margin-left: 40px;
+    width:500px;
+}
+
+#form {
+    text-align: center;
+    margin: 15px;
+}
+
+#answer {
+    height: 45px;
+    width: 500px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#submit {
+    height: 36px;
+    font-size: 24px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>タイピングゲーム</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 30;
+      }
+      canvas {
+        background: #f5fafe;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class = "main">
+    <div class ="wrapper title">
+      <h1 id = "title">タイピングゲーム</h1>
+      <img src = "img/discordIcon.JPG" id = "icon" width="50" height="50">
+    </div>
+    <div class = "wrapper">
+      <canvas id="myCanvas" width="680" height="380"></canvas>
+      <div style="display:none;">
+        <img id="gameOver" src="img/GameOver.png" width="300" height="227" />
+        <img id="clear" src="img/Congratulations.jpg" width="300" height="227" />
+      </div>
+    </div>
+    <section>
+      <div class = "answer"></div>
+        <form action="#" id="form">
+          <input type="text" id="answer" name="word">
+          <input type="submit" id="submit" value="送信" action=false>
+        </form>
+    </section>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
